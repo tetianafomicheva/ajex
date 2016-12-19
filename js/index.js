@@ -1,5 +1,5 @@
 // JavaScript File
-document.getElementById('loaded').innerHTML(new Date ()). toLocaleTimeString();
+document.getElementById('loaded').innerHTML = (new Date ()).toLocaleTimeString();
 document.getElementById('btn-getdata').addEventListener('click',makeRequest);
 
 function makeRequest (){
